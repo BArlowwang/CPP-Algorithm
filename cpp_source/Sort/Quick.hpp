@@ -17,6 +17,7 @@ template <typename T>
 vector<T> Bubble<T>::method(const vector<T> data, const bool insc)
 {
     vector<T> tmp=data;
+    
     typename vector<T>::iterator outterIt = prev(tmp.end());
     return tmp;
 }
