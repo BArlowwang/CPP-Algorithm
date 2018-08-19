@@ -2,7 +2,7 @@
 #include <time.h>
 #include <iostream>
 #include <vector>
-#include "Bubble.hpp"
+#include "Quick.hpp"
 using namespace std;
 #define random(x) (rand() % x)
 void swap(int &a, int &b)
@@ -15,7 +15,8 @@ int main(int argc, char const *argv[])
 {
   srand((int)time(NULL));
     vector<int> data;
-    for (int i = 0; i < 20; i++)
+    int a[10]={50,13,81,8,25,59,52,20,7,19};
+    for (int i = 0; i < 10; i++)
     {
         data.push_back(random(100));
     }
@@ -30,12 +31,12 @@ int main(int argc, char const *argv[])
         cout << i << " ";
     cout << endl;
      system("pause");*/
-    Bubble<int> b(data);
+    Quick<int> b(data);
     b.showRowData();
     b.sort(true);
     b.showSortedData();
-    b.sort(false);
-    b.showSortedData();
+ //   b.sort(false);
+  //  b.showSortedData();
     system("pause");
     return 0;
 }

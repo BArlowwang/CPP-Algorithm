@@ -57,7 +57,7 @@ void Sort<T>::showSortedData()
 template <class T>
 void Sort<T>::printDate(const vector<T> &data)
 {
-    int i = 0;
+   // int i = 0;
     for (auto tmp : data)
     {
         cout<< "  " << tmp;
