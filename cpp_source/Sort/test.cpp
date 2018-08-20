@@ -35,6 +35,9 @@ int main(int argc, char const *argv[])
     b.showRowData();
     b.sort(true);
     b.showSortedData();
+    b.useRecursiveMethod(true);
+    b.sort(true);
+    b.showSortedData();
  //   b.sort(false);
   //  b.showSortedData();
     system("pause");
