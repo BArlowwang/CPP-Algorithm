@@ -63,6 +63,7 @@ int main(int argc, char const *argv[])
     b.sort(true);
     b.showSortedData();
 <<<<<<< HEAD
+<<<<<<< HEAD
     b.sort(false);
     b.showSortedData();
     /*   for (auto i : data)
@@ -85,6 +86,8 @@ int main(int argc, char const *argv[])
     //   b.sort(false);
     //  b.showSortedData();*/
 =======
+=======
+>>>>>>> 6f24db6bc46e18de0faff11ad14060723ea898ca
     b.useRecursiveMethod(true);
     b.sort(true);
     b.showSortedData();
