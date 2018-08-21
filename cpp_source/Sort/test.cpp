@@ -62,6 +62,7 @@ int main(int argc, char const *argv[])
     b.showRowData();
     b.sort(true);
     b.showSortedData();
+<<<<<<< HEAD
     b.sort(false);
     b.showSortedData();
     /*   for (auto i : data)
@@ -83,6 +84,13 @@ int main(int argc, char const *argv[])
     cout << endl;
     //   b.sort(false);
     //  b.showSortedData();*/
+=======
+    b.useRecursiveMethod(true);
+    b.sort(true);
+    b.showSortedData();
+ //   b.sort(false);
+  //  b.showSortedData();
+>>>>>>> 6f24db6bc46e18de0faff11ad14060723ea898ca
     system("pause");
     return 0;
 }
