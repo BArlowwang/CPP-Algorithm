@@ -2,7 +2,7 @@
 #include <time.h>
 #include <iostream>
 #include <vector>
-#include "Insert.hpp"
+#include "Select.hpp"
 using namespace std;
 #define random(x) (rand() % x)
 void swap(int &a, int &b)
@@ -58,12 +58,10 @@ int main(int argc, char const *argv[])
         cout << i << " ";
     cout << endl;
      system("pause");*/
-    Insert<int> b(data);
+    Select<int> b(data);
     b.showRowData();
     b.sort(true);
     b.showSortedData();
-<<<<<<< HEAD
-<<<<<<< HEAD
     b.sort(false);
     b.showSortedData();
     /*   for (auto i : data)
@@ -85,15 +83,6 @@ int main(int argc, char const *argv[])
     cout << endl;
     //   b.sort(false);
     //  b.showSortedData();*/
-=======
-=======
->>>>>>> 6f24db6bc46e18de0faff11ad14060723ea898ca
-    b.useRecursiveMethod(true);
-    b.sort(true);
-    b.showSortedData();
- //   b.sort(false);
-  //  b.showSortedData();
->>>>>>> 6f24db6bc46e18de0faff11ad14060723ea898ca
     system("pause");
     return 0;
 }

@@ -3,7 +3,6 @@
 #define INSERT_H
 
 #include "Sort.hpp"
-#include <stack>
 using namespace std;
 template <class T>
 class Insert final : public Sort<T>
