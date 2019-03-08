@@ -37,21 +37,6 @@ int removeDuplicates(vector<int>& nums)
     return current + 1;
 }
 
-
-int removeDuplicates(vector<int> &nums)
-{
-    if (nums.size() == 0)
-        return 0;
-    int current = 0;
-    for (int i = 0; i < nums.size(); i++)
-    {
-        if (nums[i] != nums[current])
-        {
-            nums[++current] = nums[i];
-        }
-    }
-    return current + 1;
-}
 int main()
 {
     vector<int> num;

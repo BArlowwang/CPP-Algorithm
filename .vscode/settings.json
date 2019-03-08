@@ -32,6 +32,7 @@
         "typeinfo": "cpp",
         "utility": "cpp",
         "deque": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "xlocale": "cpp"
     }
 }
