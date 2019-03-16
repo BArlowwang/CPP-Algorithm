@@ -97,3 +97,34 @@ int  main()
     system("pause");
     }
 }
+/**  力扣大神的题解
+ * 
+    int romanToInt(string s) {        
+        int sum = 0;
+        int n[s.size()+1];
+        n[s.size()]=0;
+        for(int i = 0; i < s.length(); i++){           
+            switch(s[i]){
+                case 'I':  n[i]=1; break;
+                case 'V':  n[i]=5; break;
+                case 'X':  n[i]=10; break;
+                case 'L':  n[i]=50; break;
+                case 'C':  n[i]=100; break;
+                case 'D':  n[i]=500; break;
+                case 'M':  n[i]=1000; break;
+                default :break;             
+            }
+        }
+        //可以用int n[100]; n['I']=1;....表示
+        
+        for(int i = 0; i < s.length(); i++){
+            if(n[i] < n[i+1]) {
+                sum = sum + n[i+1] - n[i];
+                i++;
+            }else
+                sum += n[i];
+        }
+       
+        return sum;
+    } 
+*/

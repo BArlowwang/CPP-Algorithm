@@ -33,6 +33,8 @@
         "utility": "cpp",
         "deque": "cpp",
         "ratio": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "stack": "cpp",
+        "xutility": "cpp"
     }
 }
