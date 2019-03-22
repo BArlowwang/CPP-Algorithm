@@ -36,19 +36,21 @@ int myAtoi(string str)
         tmp = str[i];
         if (tmp < '0' || tmp > '9')
             break;
-        sum =sum * 10 + tmp - '0';
-        if(sum-INT_MAX>0)
+        sum = sum * 10 + tmp - '0';
+        if (sum - INT_MAX > 0)
         {
             return sign == '+' ? INT_MAX : INT_MAX * -1 - 1;
         }
     }
     return sign == '+' ? sum : sum * -1;
 }
-int  main()
+int main()
 {
     string s;
-    while(1){
-        cin>>s;
-        cout<<endl<<myAtoi(s)<<endl;
+    while (1)
+    {
+        cin >> s;
+        cout << endl
+             << myAtoi(s) << endl;
     }
 }

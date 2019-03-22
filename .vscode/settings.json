@@ -35,6 +35,7 @@
         "ratio": "cpp",
         "xlocale": "cpp",
         "stack": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "xstring": "cpp"
     }
 }
